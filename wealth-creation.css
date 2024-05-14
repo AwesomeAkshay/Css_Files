@@ -1,0 +1,285 @@
+.wealth-creation-box {
+    background-color: #F8FCFF;
+}
+
+.wealth-creation-wrap {
+    background-color: #2B61AB;
+    border-radius: 8px;
+    padding: 29px 58px 24px;
+}
+
+.wealth-creation-wrap .wealth-creation-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.wealth-creation-wrap .wealth-creation-left {
+    display: flex;
+    align-items: center;
+}
+
+.wealth-creation-wrap .text16 {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 21px;
+    color: #FFFFFF;
+    letter-spacing: -0.2px;
+}
+
+.wealth-creation-wrap .text16 span {
+    font-weight: 800;
+}
+
+.wealth-select {
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 25px;
+    display: inline-block;
+    margin-left: 20px;
+    position: relative;
+}
+
+.wealth-select .text16 {
+    padding-left: 27px;
+    padding-right: 44px;
+    line-height: 47px;
+    height: 47px;
+    text-decoration: none;
+}
+
+.wealth-select .text16:after {
+    content: "\e900";
+    position: absolute;
+    right: 27px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-family: 'icomoon';
+    font-size: 12px;
+    color: #FFFFFF;
+    transition: all 0.1s linear;
+}
+
+.wealth-select-options-wrap {
+    display: none;
+    position: absolute;
+    background: #2B61AB;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    width: 100%;
+    left: 0;
+    border-radius: 16px;
+    margin-top: 8px;
+    z-index: 2;
+}
+
+.wealth-select-options-wrap.active {
+    display: block;
+}
+
+.wealth-select-options-wrap ul li {
+    padding: 12px 27px;
+    color: #FFFFFF;
+    cursor: pointer;
+    transition: all 0.1s linear;
+}
+
+.wealth-select-options-wrap ul li:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.btn-orange {
+    padding: 14px 32px;
+    background: #D71C23;
+    color: #FFFFFF;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16px;
+    border-radius: 28px;
+    border: none;
+    outline: none;
+}
+
+.view-products {
+    min-width: 177px;
+    margin-left: 8px;
+}
+
+.wealth-creation-products {
+    display: none;
+    margin-top: 38px;
+}
+
+.wealth-creation-products.active {
+    display: block;
+}
+
+.wealth-creation-products .top-heads {
+    max-width: 676px;
+    margin: 0 auto 33px;
+}
+
+.wealth-creation-products .top-heads h2,
+.wealth-creation-products .top-heads p {
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.wealth-creation-products .top-heads h2 {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.wealth-creation-products .top-heads p {
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.wealth-creation-slider {
+    max-width: 948px;
+    margin: 0 auto;
+    cursor: pointer;
+}
+
+.wealth-creation-slider.slick-dotted.slick-slider {
+    margin-bottom: 72px;
+}
+
+.wealth-creation-slider .wealth-slider-row {
+    padding: 26px 32px 38px;
+    background: #326EC1;
+    border-radius: 25px;
+    margin: 0 12px;
+}
+
+.wealth-creation-slider h3,
+.wealth-creation-slider p {
+    color: #FFFFFF;
+}
+
+.wealth-creation-slider h3 {
+    margin-bottom: 11px;
+}
+
+.wealth-creation-slider h3 span {
+    font-weight: 700;
+}
+
+.wealth-creation-slider p {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 17px;
+    letter-spacing: -0.2px;
+}
+
+.wealth-creation-slider .slick-dots {
+    width: fit-content;
+    bottom: -55px;
+    left: 12px;
+}
+
+.wealth-creation-slider .slick-dots li.slick-active button {
+    background-color: #FFFFFF;
+}
+
+.wealth-creation-slider .slick-dots li button {
+    border-color: #FFFFFF;
+}
+
+.wealth-sliders-wrap {
+    display: none;
+}
+
+@media (max-width: 991px) {
+    .wealth-creation-wrap {
+        padding: 20px;
+    }
+
+    .wealth-creation-wrap .wealth-creation-top {
+        display: block;
+    }
+
+    .wealth-creation-wrap .wealth-creation-top .wealth-creation-left {
+        display: block;
+    }
+
+    .wealth-select {
+        width: 100%;
+        margin-top: 16px;
+        margin-left: 0;
+    }
+
+    .wealth-select .text16 {
+        padding-left: 24px;
+        padding-right: 44px;
+        font-size: 12px;
+        line-height: 46px;
+        letter-spacing: 0.5px;
+    }
+
+    .view-products {
+        margin-top: 16px;
+        margin-left: 0;
+        width: 100%;
+    }
+
+    .wealth-creation-products {
+        margin-top: 30px;
+    }
+
+    .wealth-creation-products .top-heads {
+        margin-bottom: 20px;
+    }
+
+    .wealth-creation-products .top-heads h2 {
+        font-size: 24px;
+        line-height: 26px;
+        margin-bottom: 4px;
+    }
+
+    .wealth-creation-products .top-heads p {
+        font-size: 12px;
+        line-height: 18px;
+    }
+
+    .wealth-creation-slider {
+        margin-left: -8px;
+        margin-right: -8px;
+    }
+
+    .wealth-creation-slider .wealth-slider-row {
+        margin: 0 8px;
+        padding: 26px 17px 26px 32px;
+    }
+
+    .wealth-creation-slider h3 {
+        font-size: 24px;
+        font-weight: 700;
+        line-height: 26px;
+        letter-spacing: 0.2px;
+    }
+
+    .wealth-creation-slider p {
+        font-size: 13px;
+        line-height: 17px;
+    }
+
+    .wealth-select-options-wrap ul li {
+        padding: 12px 24px;
+        font-size: 12px;
+        line-height: 18px;
+        letter-spacing: 0.5px;
+    }
+}
+
+@media (max-width: 767px) {
+    .wealth-creation-slider .slick-list {
+        padding-left: 8px !important;
+    }
+
+    .wealth-sliders-wrap {
+        margin: 0 -12px;
+    }
+}

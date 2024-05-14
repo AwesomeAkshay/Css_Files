@@ -1,0 +1,142 @@
+.yes-stories-box {
+    padding-bottom: 75px;
+}
+
+.yes-stories-box .top-heading {
+    padding-bottom: 52px;
+}
+
+.yes-stories-box .slick-track {
+    padding-bottom: 30px;
+}
+
+.yes-stories-box .slick-arrow {
+    border: 1px solid #D9D9D9;
+    z-index: 5;
+}
+
+.yes-stories-box .slick-arrow::before {
+    color: #D71C23;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.yes-stories-box .slick-arrow.slick-next {
+    right: 0;
+    top: 50%;
+}
+
+.yes-stories-box .slick-arrow.slick-prev {
+    left: 0;
+    top: 50%;
+}
+
+.yes-stories-content {
+    max-width: 881px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.yes-stories-content .comments {
+    text-align: center;
+    font-size: 42px;
+    line-height: 54px;
+    font-weight: 300;
+    position: relative;
+    color: #2B61AB;
+}
+
+.yes-stories-content .comments::before {
+    position: absolute;
+    content: '';
+    background: url("../images/stories-bg.png") no-repeat center center;
+    background-size: contain;
+    height: 179px;
+    width: 222px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.yes-stories-content .customer-details {
+    padding-top: 77px;
+}
+
+.yes-stories-content .customer-details p {
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: -0.02em;
+    color: #14305C;
+}
+
+.yes-stories-content .customer-details p .name {
+    font-weight: 600;
+    margin-right: 8px;
+}
+
+.yes-stories-content .customer-details p .loan-for {
+    position: relative;
+    padding-left: 8px;
+}
+
+.yes-stories-content .customer-details p .loan-for::before {
+    position: absolute;
+    content: '';
+    width: 6px;
+    height: 6px;
+    background: #14305C;
+    border-radius: 50%;
+    left: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.yes-stories-content .customer-details .date {
+    margin-top: 23px;
+    font-size: 12px;
+    line-height: 20px;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+@media (max-width: 991px) {
+    .yes-stories-box {
+        padding-bottom: 60px;
+    }
+
+    .yes-stories-box .top-heading {
+        padding-bottom: 57px;
+    }
+
+    .yes-stories-content .comments {
+        font-size: 36px;
+        line-height: 44px;
+    }
+
+    .yes-stories-content .comments::before {
+        width: 170px;
+    }
+
+    .yes-stories-content .customer-details {
+        padding-top: 60px;
+    }
+}
+
+@media (max-width: 767px) {
+    .yes-stories-content .comments {
+        font-size: 30px;
+        line-height: 39px;
+    }
+
+    .yes-stories-content .comments::before {
+        width: 170px;
+        top: 20px;
+    }
+
+    .yes-stories-content .customer-details {
+        padding-top: 24px;
+    }
+
+    .yes-stories-content .customer-details .date {
+        margin-top: 8px;
+    }
+}

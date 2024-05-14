@@ -1,0 +1,107 @@
+.our-achivements-box {
+    padding-bottom: 90px;
+    background: #F8FCFF;
+}
+
+.our-achivements-box .our-achivements-inner {
+    background: #2B61AB;
+    box-shadow: 0px 11px 14px rgba(0, 52, 122, 0.08);
+    border-radius: 8px;
+    padding: 35px 45px;
+}
+
+.our-achivements-box .our-achivements-row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 0 -40px;
+}
+
+.our-achivements-box .our-achivements-col {
+    padding: 0 40px;
+    border-right: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.our-achivements-box .our-achivements-col:last-child {
+    border-right: none;
+}
+
+.our-achivements-box .our-achivements-col h1 {
+    font-size: 56px;
+    line-height: 64px;
+    margin-bottom: 6px;
+    font-weight: 300;
+    color: #FFFFFF;
+}
+
+.our-achivements-box .our-achivements-col p {
+    font-size: 20px;
+    line-height: 23px;
+    letter-spacing: 0.2px;
+    color: #B4D3FF;
+}
+
+@media (max-width: 1199px) {
+    .our-achivements-box .our-achivements-inner {
+        padding: 25px;
+    }
+
+    .our-achivements-box .our-achivements-col {
+        padding: 0 30px;
+    }
+}
+
+@media (max-width: 991px) {
+    .our-achivements-box {
+        padding-bottom: 40px;
+    }
+
+    .our-achivements-box .our-achivements-inner {
+        padding: 8px 20px 30px;
+    }
+
+    .our-achivements-box .our-achivements-row {
+        margin: 0 -30px;
+    }
+
+    .our-achivements-box .our-achivements-col {
+        padding: 19px 30px;
+        width: 50%;
+        border: none;
+    }
+
+    .our-achivements-box .our-achivements-col h1 {
+        font-size: 40px;
+        line-height: 48px;
+    }
+}
+
+@media (max-width: 767px) {
+    .our-achivements-box {
+        padding-bottom: 20px;
+    }
+
+    .our-achivements-box .our-achivements-inner {
+        padding: 8px 20px 26px;
+    }
+
+    .our-achivements-box .our-achivements-row {
+        margin: 0 -17px;
+    }
+
+    .our-achivements-box .our-achivements-col {
+        padding: 19px 17px;
+        width: 50%;
+        border: none;
+    }
+
+    .our-achivements-box .our-achivements-col h1 {
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .our-achivements-box .our-achivements-col p {
+        font-size: 13px;
+        line-height: 15px;
+    }
+}

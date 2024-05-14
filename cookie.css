@@ -1,0 +1,102 @@
+.cookie-box {
+    background: #1C447B;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    padding: 20px 0;
+    z-index: 99;
+}
+
+.cookie-box.d-none {
+    display: none;
+}
+
+.cookie-box .cookie-inner {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.cookie-box .cookie-left-content {
+    width: calc(100% - 320px);
+}
+
+.cookie-box .cookie-left-content p {
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+}
+
+.cookie-box .cookie-left-content a {
+    color: #ffffff;
+    font-weight: 600;
+    text-decoration: underline;
+}
+
+.cookie-box .cookie-left-content a:hover {
+    text-decoration: none;
+}
+
+.cookie-box .cookie-right-content {
+    width: 320px;
+}
+
+.cookie-box .cookie-right-content .cookie-btn {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.cookie-box .cookie-right-content .btn {
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 600;
+    padding: 14px 32px;
+    border: 1px solid #FFFFFF;
+    border-radius: 28px;
+}
+
+.cookie-box .cookie-right-content .allow-btn {
+    color: #D71C23;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    background: #ffffff;
+}
+
+.cookie-box .cookie-right-content .decline-btn {
+    color: #FFFFFF;
+    background: transparent;
+    margin-left: 16px;
+}
+
+@media (max-width: 676px) {
+    .cookie-box .cookie-inner {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .cookie-box .cookie-right-content {
+        width: 100%;
+    }
+
+    .cookie-box .cookie-right-content .cookie-btn {
+        justify-content: center;
+    }
+
+    .cookie-box .cookie-right-content .cookie-btn .btn {
+        padding: 12px 26px;
+    }
+
+    .cookie-box .cookie-left-content {
+        width: 100%;
+        padding-bottom: 20px;
+    }
+
+    .cookie-box .cookie-left-content p {
+        text-align: center;
+    }
+}

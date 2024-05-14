@@ -1,0 +1,157 @@
+.business-loans-inner {
+    background: url("../images/business-loans-bg-img.png") no-repeat;
+    padding-left: 36px;
+    padding-right: 36px;
+    border-radius: 8px;
+    position: relative;
+    z-index: 1;
+}
+
+.business-loans-inner .business-loan-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.business-loans-inner .business-loan-left {
+    width: 50%;
+}
+
+.business-loans-inner .loans-left-content img {
+    margin-top: -20px;
+}
+
+.business-loans-inner .business-loan-right {
+    width: 50%;
+    padding: 58px 0 65px 60px;
+}
+
+.business-loans-inner .business-loan-right .loans-right-content {
+    max-width: 448px;
+}
+
+.business-loans-inner .business-loan-right h6 {
+    color: #2B61AB;
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.business-loans-inner .business-loan-right h2 {
+    font-weight: 700;
+    color: #2B2C3E;
+    margin-bottom: 9px;
+}
+
+.business-loans-inner .business-loan-right p {
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 700;
+    letter-spacing: 0.2px;
+    color: #333333;
+}
+
+.business-loans-inner .business-loan-right .aaply-btns {
+    display: flex;
+    align-items: center;
+    padding-top: 33px;
+}
+
+.business-loans-inner .business-loan-right .aaply-btns .btn-danger {
+    margin-right: 16px;
+}
+
+.business-loans-inner .business-loan-right .aaply-btns .btn-outline-danger {
+    font-weight: 600;
+}
+
+@media (max-width: 1199px) {
+    .business-loans-inner .business-loan-right {
+        width: 50%;
+        padding: 30px 0 50px 30px;
+    }
+
+    .business-loans-inner .business-loan-right .aaply-btns {
+        padding-top: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .business-loans-inner {
+        background: url("../images/business-loans-mobile-img.png") no-repeat;
+        background-size: cover;
+        padding: 45px 22px 0;
+    }
+
+    .business-loans-inner .business-loan-content {
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .business-loans-inner .business-loan-left {
+        width: 100%;
+        order: 2;
+    }
+
+    .business-loans-inner .business-loan-left img {
+        margin: 0 auto;
+    }
+
+    .business-loans-inner .business-loan-right {
+        width: 100%;
+        padding: 0;
+        order: 1;
+    }
+
+    .business-loans-inner .business-loan-right .loans-right-content {
+        max-width: 100%;
+        text-align: center;
+    }
+
+    .business-loans-inner .business-loan-right .aaply-btns {
+        justify-content: center;
+    }
+}
+
+@media (max-width: 767px) {
+    .business-loans-inner .business-loan-left {
+        width: 100%;
+        order: 2;
+    }
+
+    .business-loans-inner .business-loan-left img {
+        margin: 0 auto;
+    }
+
+    .business-loans-inner .business-loan-right {
+        width: 100%;
+        padding: 0;
+        padding-bottom: 39px;
+        order: 1;
+    }
+
+    .business-loans-inner .business-loan-right .loans-right-content {
+        max-width: 100%;
+        text-align: left;
+    }
+
+    .business-loans-inner .business-loan-right .loans-right-content h2 {
+        font-size: 24px;
+    }
+
+    .business-loans-inner .business-loan-right .aaply-btns {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .business-loans-inner .business-loan-right .aaply-btns .btn-danger {
+        margin-right: 0;
+        margin-bottom: 16px;
+    }
+
+    .business-loans-inner .business-loan-right .aaply-btns .btn {
+        width: 100%;
+        justify-content: center;
+    }
+}
